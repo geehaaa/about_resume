@@ -1,0 +1,38 @@
+body
+{
+	background-color: khaki;
+}
+h1
+{
+	text-align: center;
+}
+h3
+{
+	background-color: hotpink;
+	color: yellow;
+	font-family: verdana;
+	border: 2px solid brown;
+}
+p
+{
+	font-size: 20px;
+	color: darkblue;
+}
+table, th, td, tr
+{
+	border: 3px solid brown;
+	border-collapse: collapse;
+
+}
+th
+{
+	background-color: darkgreen;
+}
+td
+{
+	text-align: center;
+}
+tr:hover
+{
+	background-color: yellow;
+}

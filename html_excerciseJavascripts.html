@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML EXCERCISE JAVASCRIPTS</title>
+</head>
+<body>
+
+	<p id="content1">Welcome to my page</p>
+	<button type="button" onclick='document.getElementById("content1").innerHTML="I love to learn web design"'>Change Content</button>
+
+
+	<p id="style1">Hello! Welcome to Faculty of Information Management</p>
+
+	<script>
+		function myStyle()
+		{
+			document.getElementById("style1").style.fontSize = "25px";
+			document.getElementById("style1").style.fontFamily = "Courier New";
+			document.getElementById("style1").style.color = "blue";
+			document.getElementById("style1").style.backgroundColor = "yellow";
+		}
+	</script>
+	<button type="button" onclick="myStyle()">Change style</button>
+
+	<h3>Script to change image attribute</h3>
+
+
+	<script>
+		function myPicture(g)
+		{
+			var pic; 
+			if (g==0)
+			{
+				pic="images/frozen.jfif"
+			}
+			else
+			{
+				pic="images/barbie.jfif"
+			}
+			document.getElementById('picture').src=pic;
+		}
+	</script>
+
+	<img src="images/frozen.jfif" id="picture" width="200px" height="200px">
+	<p>
+		<button type="button" onclick="myPicture(0)">frozen</button>
+		<button type="button" onclick="myPicture(1)">Barbie</button>
+	</p>
+
+	<button type="button" onclick="AlertBox()">Click Here</button>
+	<script>
+		function AlertBox()
+		{
+			alert("Assalamualaikum.\nSelamat datang ke kelas IMS456 \nSemoga kita beroleh ilmu yang bermanfaat")
+		}
+	</script>
+		<script>
+		
+		{
+			alert("Assalamualaikum.\nSelamat datang ke kelas IMS456 \nSemoga kita beroleh ilmu yang bermanfaat")
+		}
+
+	
+	</script>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7967.530022657314!2d101.70886319118988!3d3.156548137275288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d0de468683%3A0x1220827708fd1448!2sKLCC!5e0!3m2!1sen!2smy!4v1734512011330!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</body>
+</html>
